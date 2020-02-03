@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>quizQuest</title>
+    <div>
+        <h1>Welcome to quizQuest</h1>
+    </div>
+</head>
+<body>
+<div>
+    <h3>1)In order to win you gotta select the right choice.</h3>
+    <h3>2)You start with 100% life, as you select correctly you stay at 100%</h3>
+    <h3>3)In order to win you gotta select five choices correctly</h3>
+    <h2>OR YOU WILL DIE</h2>
+</div>
+
+<form id="user-sign-up">
+    <p class="text-prompt">
+        <label for="name">please enter your name:</label>
+        <input id="name" name="name" required>
+    </p>
+<fieldset>
+    <legend>Pick Your Race:</legend>
+    <p id="avatars">
+    <label>
+        harry
+     <input type="radio" name="race" required value="harry">
+        <img src="https://www.snopes.com/tachyon/2014/01/Screen-Shot-2016-08-22-at-9.15.52-AM-e1471882693416.png?resize=700,452" height="150" width="150">
+        </label>
+
+
+        <label>
+            Ron
+        <input type="radio" name="race" required value="ron">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Ron_Weasley_poster.jpg/220px-Ron_Weasley_poster.jpg" height="150" width="150">
+                 
+        </label>
+
+
+        <label>
+            Hermione
+        <input type="radio" name="race" required value="Hermione">
+               <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Hermione_Granger_poster.jpg/220px-Hermione_Granger_poster.jpg" height="150" width="150">
+               
+         </label>
+
+
+        <label>
+            voldemort
+            <input type="radio" name="race" required value="voldemort">
+                <img src="https://vignette.wikia.nocookie.net/warner-bros-entertainment/images/6/6e/VoldemortHeadshot_DHP1.png/revision/latest/top-crop/width/360/height/450?cb=20180126164438" height="150" width="150">
+            
+         </label>
+         </p>
+</fieldset>
+<script type="module" src="make-user.js"></script>
+</body>
+
+</html>
